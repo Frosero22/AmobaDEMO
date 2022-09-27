@@ -42,6 +42,7 @@ public class DetallePacienteActivity extends AppCompatActivity {
     private TextView txvCelularPaciente;
     private ImageView imgCerrar;
     private TextView txvEdad;
+    
 
 
     protected Services service = ApiUtils.getInstance();
