@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.DetallePacienteActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="125dp"
+        android:src="@drawable/logo">
+
+    </ImageView>
+
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="387dp"
+        android:layout_height="15dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="630dp" />
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/llyHojaCampo"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="544dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:layout_width="76dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/contento">
+
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="251dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txvNombrePaciente"
+                    android:layout_width="241dp"
+                    android:layout_height="28dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Iván Cordero"
+                    android:textColor="#000000"
+                    android:textSize="19dp">
+
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="239dp"
+                    android:layout_height="28dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Paciente actual"
+                    android:textColor="#5492FD"
+                    android:textSize="15dp">
+
+
+                </TextView>
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/imgCerrar"
+                android:layout_width="36dp"
+                android:layout_height="39dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/cerrar">
+
+            </ImageView>
+
+
+        </LinearLayout>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <TextView
+        android:id="@+id/txvIdentificacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="504dp"
+        android:text="C.I. 010525436-7"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="18dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/txvMailPaciente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="472dp"
+        android:text="colby.mitchell @gmail.com"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="227dp"
+        android:layout_marginBottom="362dp"
+        android:text="Edad"
+        android:textAlignment="center"
+        android:textColor="#5492fd"
+        android:textSize="15dp">
+
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/txvGeneroPaciente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="238dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="414dp"
+        android:text="Masculino"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18dp">
+
+
+    </TextView>
+
+    <TextView
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="246dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="392dp"
+        android:text="Sexo"
+        android:textAlignment="center"
+        android:textColor="#5492fd"
+        android:textSize="15dp">
+
+
+    </TextView>
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="343dp" />
+
+    <TextView
+        android:id="@+id/txvEdad"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="228dp"
+        android:layout_marginBottom="388dp"
+        android:text="40 años 5 Meses"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18dp">
+
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/txvDireccionPaciente"
+        android:layout_width="410dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="299dp"
+        android:text="987 Gusikowski  Inlet Apt. 615"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="18dp">
+
+
+    </TextView>
+
+    <TextView
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="151dp"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="279dp"
+        android:text="Dirección"
+        android:textAlignment="center"
+        android:textColor="#5492fd"
+        android:textSize="15dp">
+
+
+    </TextView>
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="255dp" />
+
+    <TextView
+        android:id="@+id/txvTelefonoPaciente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="224dp"
+        android:text="+6436100863112"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="18dp">
+
+
+    </TextView>
+
+    <TextView
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="154dp"
+        android:layout_marginBottom="197dp"
+        android:text="Phone"
+        android:textAlignment="center"
+        android:textColor="#5492fd"
+        android:textSize="15dp">
+
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="154dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="127dp"
+        android:text="Mobile"
+        android:textAlignment="center"
+        android:textColor="#5492fd"
+        android:textSize="15dp">
+
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/txvCelularPaciente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="152dp"
+        android:text="+8316702194809"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="18dp">
+
+
+    </TextView>
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="312dp"
+        android:layout_height="22dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="448dp" />
+
+
+    <Button
+        android:id="@+id/btn_iniciar_sesion"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="640dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="29dp"
+        android:background="@drawable/boton_one"
+        android:text="VER FICHA MÉDICA"
+        android:textColor="#FFF"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>
